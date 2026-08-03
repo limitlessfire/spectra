@@ -3,7 +3,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 import { playQuery, replyMusicSuccess } from '../../services/music/musicActions.js';
 
 export default {
-    slashOnly: true,
+    slashOnly: false,
     category: 'Music',
     data: new SlashCommandBuilder()
         .setName('play')
